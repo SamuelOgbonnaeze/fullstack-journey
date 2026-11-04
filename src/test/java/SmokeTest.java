@@ -4,10 +4,10 @@ import static org.junit.jupiter.api.Assertions.*;
 public class SmokeTest {
 
 @Test
-    void isAnswerTwo(){
-    int x= 1*2;
+    void isAnswerTrue(){
+    int x= 2*2;
 
-    assertEquals(2,x);
+    assertEquals(4,x);
     }
 
 }
